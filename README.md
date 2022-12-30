@@ -1,9 +1,5 @@
-# Purpose of this Folder
-
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
-
-## Note: Android Kotlin Gradle Update
-Use the updated Gradle version in the `~/gradle/wrapper/gradle-wrapper.properties` file:
-```
-distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
-```
+# NASA Asteroid App
+This project was a programming assignment for the Udacity Android Developer program.
+This app uses two NASA APIs, one to get the image of the day, the other to get a list of asteroids coming close to Earth.
+The app uses RetroFit for the fetching the data from NASA and stores data in a Room database.
+A demo api key is included so this app should run out of the box.
